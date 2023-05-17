@@ -8,7 +8,6 @@ export default function SelectGame({ menus }) {
     const randomIndex = Math.floor(Math.random() * menus.length);
     const randomElement = menus[randomIndex];
     setSelected(randomElement);
-    // console.log(randomElement); // 랜덤으로 선택된 요소 출력
   };
   return (
     <>
